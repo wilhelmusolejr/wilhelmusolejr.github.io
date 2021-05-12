@@ -298,7 +298,7 @@ a {
     /* SECTION EMAIL */
     .email .container {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .email .desktop {
         display: flex;
