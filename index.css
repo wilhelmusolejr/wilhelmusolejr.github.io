@@ -493,7 +493,7 @@ section .flex-container > div {
 
 .nav-menu,
 .fa-x {
-  display: none;
+  display: none !important;
 }
 nav .fa-solid {
   font-size: 24px;
