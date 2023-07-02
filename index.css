@@ -492,8 +492,8 @@ section .flex-container > div {
 }
 
 .nav-menu,
-.fa-x {
-  display: none !important;
+.fa-solid.fa-x {
+  display: none;
 }
 nav .fa-solid {
   font-size: 24px;
@@ -503,10 +503,12 @@ nav .fa-solid {
   .nav-menu {
     display: initial;
   }
-  .fa-x {
+  .fa-solid.fa-x {
     position: absolute;
     top: 10%;
     right: 10%;
+
+    display: initial;
   }
 
   .nav-links {
